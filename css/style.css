@@ -1,0 +1,68 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
+    border: 1px solid white;
+}
+html {
+    background-color: black;
+}
+
+.snake-game {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 200px;
+    grid-gap: 20px;
+    position: relative;
+    margin: 0 auto;
+    width: 608px;
+    height: 608px; 
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 380px;
+}
+
+.keyboard {
+    border: 1px solid white;
+    width: 600px;
+    height: 300px; 
+    position: relative;
+    margin: 8px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    
+}
+
+.plug {
+    background-color: #8b9135;
+    width: 200px;
+    height: 100px; 
+}
+
+.key-up {
+    background-image: url("../img/up.jpg");
+    width: 200px;
+    height: 100px;
+}
+
+.key-left {
+    background-image: url("../img/left.jpg");
+    width: 200px;
+    height: 100px;
+}
+
+.key-right {
+    background-image: url("../img/right.jpg");
+    width: 200px;
+    height: 100px;
+}
+
+.key-down {
+    background-image: url("../img/down.jpg");
+    width: 200px;
+    height: 100px;
+}
